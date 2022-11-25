@@ -1,0 +1,23 @@
+#define a class employee with 
+#attributes name, weeklyhours, rate, overtimeRate, weeklytaxcredit
+# and store these in the constructor
+#(20)
+#Create a method computeWeeklyPay (self,hours) returning the gross pay of the employee,
+# which is the hours up to weeklyhours at rate, plus hours above this at overtimeRate
+#(25)
+##Create method computeTax(self,grossPay) which returns the tax due at 
+#40% on the gross pay, reduced by the tax credit.
+#(25)#
+#
+#Ensure overtime cannot be negative
+#(10)
+#weekly pay cannot be negative
+#(10)
+#Tax cannot be negative
+#(10)
+
+#Example:
+#if weekly hours is 35, rate is 11, overtimeRate is 15 and hours is 39 computeWeeklyPay
+#should return 35*11 + 4*15 = 445
+
+#computeTax(445), if weeklytaxcredit is 70 will return 0.4*445 - 70 = 108
